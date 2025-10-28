@@ -36,11 +36,11 @@ Compatible with Android Studio and Gradle build system<br>
   int pageSize = 1080;
   RendererView rendererView = findViewById(R.id.renderer_view);<br>
   String path = "";
-  rendererView.init(renderer, String path, pageSize);<br>
+  rendererView.init(renderer, path, pageSize);<br>
   File file = new File("");
-  rendererView.init(renderer, File file, pageSize);<br>
+  rendererView.init(renderer, file, pageSize);<br>
   InputStream inputStream = null;
-  rendererView.init(renderer, InputStream inputStream, pageSize);
+  rendererView.init(renderer, inputStream, pageSize);
 </pre>
 <pre>
   // clear resource if need
