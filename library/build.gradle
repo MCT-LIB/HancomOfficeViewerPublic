@@ -26,8 +26,6 @@ android {
 }
 
 dependencies {
-    implementation libs.hwplib
-    implementation libs.hwpxlib
     implementation libs.svg
     implementation libs.jlatexmath.android
     implementation libs.jlatexmath.android.cyrillic
