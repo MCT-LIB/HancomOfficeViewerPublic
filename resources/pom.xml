@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.MCT-LIB</groupId>
+    <artifactId>HancomOfficeViewerPublic</artifactId>
+    <version>1.0.8</version>
+    <packaging>aar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.caverock</groupId>
+            <artifactId>androidsvg-aar</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.noties</groupId>
+            <artifactId>jlatexmath-android</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.noties</groupId>
+            <artifactId>jlatexmath-android-font-cyrillic</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.noties</groupId>
+            <artifactId>jlatexmath-android-font-greek</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.simpligility.maven.plugins</groupId>
+                <artifactId>android-maven-plugin</artifactId>
+                <version>4.1.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <sign>
+                        <debug>false</debug>
+                    </sign>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
